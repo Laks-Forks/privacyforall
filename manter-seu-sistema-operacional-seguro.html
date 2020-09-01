@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy For All</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/criptografia.jpg" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body style="background-color:#ffffff " id="page-top">
+<div>
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"> Privacy For All</a>
+    </nav>
+</div> <br>
+    <div class="container">
+        <h3 style="text-align: center;">
+            Manter seu sistema operacional seguro
+        </h3> <br>
+        <p style="font-size: 20px;">
+            Para manter o sistema operacional seguro, é preciso primeiro entender o que torna-o vulnerável. Em 2017, o mundo foi impactado por um ransomware chamado WannaCry, 
+            o software malicioso em questão explorava uma falha do Windows 7 que havia sido corrigida e disponbilizada 
+            em patch de atualização pela Microsoft poucos meses antes, porém a maioria dos computadores das empresas e domésticos não atualizaram o sistema, o que resultou num total roubado pelos hackers de aproximadamente R$ 1.241.866, 
+            esses dados podem ser lidos na carteira bitcoin dos atacantes <a href="https://www.blockchain.com/btc/address/13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94">aqui.</a>
+        </p>
+        <p style="font-size: 20px;">
+            <strong>Atualize seu sistema -</strong> Agora que entendemos o que a falta de uma atualização pode causar, atualize seu sistema! A regra é igualmente aplicada em softwares que você tenha instalado no computador, não somente
+            ao sistema operacional, então programas como Google Chrome, Discord, Skype etc devem ser atualizados para que seja corrigida falhas de segurança.
+        </p>
+
+        <p>
+            <ul>
+                <li style="font-size: 20px;">
+                    <strong>Mas como um hacker pode explorar essas falhas não corrigidas?</strong>
+                </li>
+            </ul>
+            <p style="font-size: 20px;">
+                É bem simples na verdade, você vai entender. <br>
+                O exemplo que vou dar, será caso o atacante esteja conectado em uma mesma rede de internet, dessa forma, ele consegue ler pacotes da rede e se comunicar com outros computadores que estejam também na rede, assim como em uma empresa
+                ou em sua casa mesmo, caso tenha mais de um computador. <br> <br>
+                O atacante vai usar uma ferramenta chamada <a href="https://pt.wikipedia.org/wiki/Nmap">nmap</a> para conseguir escanear sua rede, com essa ferramenta através de parâmetros indicados para ele no momento, é possível coletar
+                 informações de serviços rodando,
+                exemplo: muitas pessoas e empresas tem em seus computadores servidores de e-mail(não estou falando daqueles que você conecta via navegador), esses serviços tem uma versão, e essa versão eu posso obter atráves do <strong>nmap</strong>.
+                sites como <a href="https://www.exploit-db.com/">exploit-db</a> disponibilizam <a href="https://www.kaspersky.com.br/blog/exploits-problem-explanation/6010/">exploits</a>, e com eles eu posso pesquisar pela versão do programa que consegui
+                escaneando a rede e explorar a falha, obtendo vantagem do seu sistema e possívelmente prejudicando o funcionamento pleno dele.
+            </p>
+        </p>
+
+        <p style="font-size: 20px;">
+            <strong>Antivírus é importante mesmo? -</strong> Diversos portais de nótica com assunto tecnologia mostram e recomendam desativar antivírus, esse tipo de matéria ficou bem mais popular e recorrente com o lançamento do Windows 10,
+            onde esses "técnicos" recomendavam desativar o Windows Defender. <br> 
+            <img src="/assets/img/prints/desligar-windows-defender.png" alt=""><br>
+            <br>
+            Como podemos ver, existem alguns conteúdos um tanto duvidosos na internet, e um deles inclusive tem um alcance alto, 400 mil visualizações. O problema nesses vídeos, é que são feitos por pessoas que não dominam o assunto, não sabem como o Windows funciona e nem 
+            como um antivírus funciona e como ele pode ajudar a manter o sistema estável, atualmente, um antivírus vai muito além do que aparente, e é isso que vou explicar agora. 
+
+            <ul>
+                <li>
+                    <strong style="font-size: 20px;">
+                        Como os antivírus funcionam?
+                    </strong>
+                </li>
+            </ul>
+            <p style="font-size: 20px;">
+                Os antivírus usam tecnologias para conseguir identificar uma ameaça em seu computador, dentre elas, existem as: Assinatura, heurística, HIPS, nuvem e inteligencia artificial. E vamos falar de cada uma delas.
+                A detecção por ASSINATURA é a mais antiga e básica, onde o antivírus procura por trechos de códigos que foram usados anteriormente por outros malwares, pois caso há a repetição de linha de código, certamente aquele software é malicioso.
+                Isso ocorre pois existem diversas formas de criarem esses malwares, trojans e afins de forma gratuita sem precisar de níveis qualquer de programação, possibilitando que qualquer pessoa crie.
+                Nesses casos, é criado a variante de um vírus, como pode ser visto nesse caso:
+            </p>
+            <img src="/assets/img/prints/variante1.png" width="190px" alt=""> <br>
+
+            <p style="font-size: 20px;">
+                Os nomes são todos iguais, mudando apenas as últimas letras. <br> <br>
+                Porém essa análise é falha, pois caso fosse criado um malware desconhecido, com código fonte completamente diferente, passaria abatido pelo antivírus, permitindo assim que o computador seja infectado.
+
+Para isso, existe a análise <strong>heurística</strong>, ela procura por padrões e características do programa, que possam indicar que seja um comportamento malicioso, toda vez que há esse padrão, é atribuído uma pontuação para ele, caso a soma for maior que X valor, o antivírus determina o software em questão como malware.
+
+Por isso, que antes mesmo de você conseguir abrir algum arquivo, ele já foi removido do seu computador e classificado como ameaça, pois certamente, ele foi barrado pela Assinatura ou Heurística. <br> <br>
+
+Acontece que muitas vezes, provavelmente ocorreu com você alguma vez também, o antivírus bloqueia algum software somente <strong>depois</strong> da execução, isso se deve pelo <strong>hips</strong>, ele é responsável pela análise <strong>comportamental</strong> desse software, por exemplo, suponha que você execute um ransonware e ele comece a criptografar seus arquivos, o antivírus vendo isso, bloqueia a próxima instrução, na qual já estava carregada na memória ram que seria de apagar seus arquivos originais, restando somente os criptografados. <br> <br>
+
+Além disso, existem mais duas que ainda não foram ditas, <strong>proteção na nuvem</strong> e <strong>inteligência artificial</strong>, mas como funciona?
+
+A <strong>proteção na nuvem</strong>, funciona de forma bem interessante, suponha que você execute um malware nunca antes visto, mas seu antivírus considera ele suspeito baseado nas análises que foi citadas a cima, dessa forma, ele envia esse mesmo arquivo para servidores de quarentena da empresa, onde ele é testado rigorosamente, e caso seja classificado, que de fato seja um programa malicioso, ele será nomeado, classificado e catalogado, e depois seu antivírus recebe uma atualização, com as informações atualizadas para que, caso alguém no mundo baixe esse programa, ele nem se quer tenha a necessidade de executar esse malware, ele será removido imediatamente, ou seja, dessa forma, caso haja um único infectado no mundo todo, em poucos segundos, esse arquivo já está sendo analisado pelos servidores e em menos de 2 ou até mesmo 1 dia, já esteja funcionando e bloqueando o mesmo programa no mundo inteiro.
+<br> <br>
+Mas onde <strong>inteligência artificial</strong> entra nisso tudo?
+
+Um grande exemplo, é o Windows Defender, ele usa I.A(inteligência artificial) para suas detecções, mas por que isso? Pois as empresas estão em busca de um objetivo, que seria nunca errar, detectar 100% dos malwares e 0% de taxas de falso positivos.
+
+A I.A, é assim como nós, quanto mais praticamos e erramos, melhor ficamos, ela precisa de uma enorme variedade softwares maliciosos ou não para treinar sua detecção.
+
+Toda vez que o Windows Defender detecta um malware de algum usuário no mundo, as informações desse malware são passadas para servidores da Microsoft, e o que eles fazem? Eles analisam continuamente um volume gigantesco de informações, que são providas das centenas de milhões de Windows Defenders no mundo, e lá, procuram por padrões para concluir se é ou não malicioso.
+<br> <br>
+Após isso, esse malwares é levado a outros servidores, nos quais realizam diversos testes vendo TUDO que foi feito depois da execução dele.
+
+                <ul>
+                    <li style="font-size: 20px;">
+                        Qual antivírus usar?
+                    </li>
+                </ul>
+                <p style="font-size: 20px;">
+                    <div style="font-size: 20px;">
+
+                    
+                    <ol>
+                        <li>
+                            <a href="https://www.microsoft.com/pt-br/windows/comprehensive-security">Windows Defender</a>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <a href="https://www.kaspersky.com.br/">Kaspersky</a>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <a href="https://www.pandasecurity.com/pt/homeusers/free-antivirus/">Panda Security</a>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <a href="https://www.avira.com/pt-br">Avira</a> <br> <br>
+                        </li>
+                    </ol>
+                </div>
+                </p>
+
+            </p>
+        </p>
+
+        <div>
+            <p>
+                <ul>
+                    <li style="font-size: 20px;">
+                        Cuidado com Adware e PUPs!
+                    </li>
+                </ul> 
+                <p style="font-size: 20px;">
+                    <strong>Adware</strong> é um programa que mostra propaganda e banners de sites indejeados, que depois vão te redirecionar para algum produto que você não queira ou um site malicioso que pode
+                    infectar o seu computador. <br> <br>
+                    <strong>PUPs</strong> são programas que se instalam junto com outros, por exemplo, eu quero instalar o CCleaner, mas quando eu abro o instalador dele, aparece a opção de instalar outros programas 
+                    junto com esse, programa esse que eu nãp quero. Pois caso eu não esteja atento, lendo tudo que esteja no instalador, eu vou aceitar a instalação desse programa que não quero que vai ficar rodando
+                    em segundo plano no meu computador, apenas deixando ele mais lento.<br> <br> 
+                </p>
+                <p style="font-size: 20px;">
+                    <strong>Para estar removendo o Adware</strong>, pode-se utilizar o <a href="https://br.malwarebytes.com/adwcleaner/">AdwCleaner</a>, é um programa super simples que nem precisa de instalação, basta você baixar
+                    e após terminar o download executar, e clicar para inciar a análise. Depois de terminar, ele vai te mostrar o número de ameaças que foi identificadas e a opção de colocar todas elas para quarentena,
+                    basta mover para quarentena e depois confirmar para reiniciar o computador, pois ele também vai pedir. <br>
+                    Aproveitando o momento, também recomendo a análise do seu computador usando o <a href="https://br.malwarebytes.com/">Malwarebytes</a>, ele é para remover outros tipos de softwares maliciosos do computador
+                    e funciona de forma mais geral, diferente do AdwCleaner que é para um tipo de praga. O Malwabytes é igualmente simples, com o diferencial de que esse precisa instalar, mas a instalação também é bem simples
+                    e apenas lendo é possível seguir sem problemas. Depois você inicia uma varredura/análise e espera concluir para poder remover ou coloca-las em quarentena (quarentena é quando o software malicioso permanece
+                    salvo em seu computador porém inativo, dessa forma sem causar mal algum, é possível remover da quarentena depois para remover por completo a praga)
+                </p>
+                <p style="font-size:20px ;">
+                    <strong>Para tratar os PUPs, recomendo que utilize o <a href="https://unchecky.com/">Unchecky</a></strong>, é um programa que desmarca automaticamente todas as caixas que veem com o programa 
+                    que indicam a instalação de um software de tericeiros, ou seja, o exemplo do CCleaner, na instalação esse navegador que viria por padrão já estaria desmarcado automaticamente, é um programa
+                    super leve que inicia automaticamente com o seu sistema, para que você possa usar o computador sem nem lembrar dele ou precisar ficar abrindo sempre que for instalar algo.
+                </p>
+                <p style="font-size: 20px;">
+                    <strong>Certo, mas caso eu já tenha instalado PUPs, como posso remover eles?</strong>, para isso, você pode conferir todos os programas instalados no seu computador e verificar qual deles você
+                    considera suspeito ou não queria que estivesse lá. Para isso, você clica no menu iniciar do Windows, que fica no canto inferior esquerdo, clicando nele, pode começar a digitar por "Painel de Controle" que
+                    automaticamente vai abrir a caixa de pesquisa e mostrar os programas disponíveis(qualquer outra forma de abrir o painel de controle também cerve), após isso, basta clicar em "Remover Programas" e lá vai estar
+                    a lista de todos os programas instalador no seu computador, e ai você pode ir removendo tudo que não queira. <br>
+                    <strong>ATENÇÂO! Caso não saiba o que está removendo, pesquise pelo nome do programa para saber do que se trata, pois pode haver drivers ali instalados e remove-los pode causar problemas ao computador</strong>
+                </p>
+            </p>
+        </div>
+    </div>
+    
+    <hr>
+    <div>
+
+        
+        <p style="text-align: center; font-size: 20px;">
+            <a href="#page-top">Topo da página</a>
+        </p>
+    </div>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © Todos os direitos reservados 2020</small></div>
+    </div>
+</body>
+</html>
