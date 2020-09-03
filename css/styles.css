@@ -10156,7 +10156,7 @@ h3 {
     font-size: 1.5rem;
   }
 }
-.portfolio .portfolio-item {
+.conteudo .conteudo-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -10164,7 +10164,7 @@ h3 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.portfolio .portfolio-item .portfolio-item-caption {
+.conteudo .conteudo-item .conteudo-item-caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -10172,24 +10172,24 @@ h3 {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.conteudo .conteudo-item .conteudo-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.conteudo .conteudo-item .conteudo-item-caption .conteudo-item-caption-content {
   font-size: 1.5rem;
 }
 
-.portfolio-modal .portfolio-modal-title {
+.conteudo-modal .conteudo-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
+  .conteudo-modal .conteudo-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
 }
-.portfolio-modal .close {
+.conteudo-modal .close {
   position: absolute;
   z-index: 1;
   right: 1.5rem;
