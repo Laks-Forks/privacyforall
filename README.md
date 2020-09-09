@@ -1,4 +1,4 @@
-privacyforall
+Privacy for All
 
-Licença em Copyright. 
-Qualquer tipo de contribuição favor entrar em contato via e-mail.
+Concientização sobre privacidade digital e liberdade. <br>
+link: https://infinitusideas.github.io/privacyforall/index.html
